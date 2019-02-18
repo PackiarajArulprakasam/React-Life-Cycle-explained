@@ -1,8 +1,14 @@
 import React, { Component } from "react";
 
 class DisplayCount extends Component {
-  componentWillReceiveProps() {
+  constructor(props) {
+    super(props);
     console.log("###### Child component life cycle methods ######", this.props);
+    console.log("0C---- From constructor ----->", this.props);
+    this.state = { message: "hi" };
+  }
+
+  componentWillReceiveProps() {
     console.log("(1C)----- From componentWillReceiveProp ----->", this.props);
   }
 

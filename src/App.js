@@ -73,7 +73,6 @@ class App extends Component {
   }
 
   increment = () => {
-    console.clear();
     console.log("###### STATE CHANGE HAPPENS HERE ######");
     console.log("---From increment method (count=count+1) --------");
     console.log("----Updated the count in state by this.setState---");
