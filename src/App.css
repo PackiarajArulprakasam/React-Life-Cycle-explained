@@ -31,3 +31,36 @@
     transform: rotate(360deg);
   }
 }
+
+p.state {
+  background-color: greenyellow;
+  width: 250px;
+  height: 40px;
+  border: 0px solid green;
+  border-radius: 10px;
+  padding: 15px 0px 0px 0px;
+  font-weight: bold;
+  font-size: 20px;
+}
+p.props {
+  background-color: rgb(149, 213, 238);
+  width: 250px;
+  height: 40px;
+  border: 0px solid rgb(0, 13, 128);
+  border-radius: 10px;
+  padding: 15px 0px 0px 0px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+button {
+  background-color: rgba(117, 117, 126, 0.185);
+  width: 280px;
+  height: 50px;
+  border: 3px solid rgb(0, 13, 128);
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
